@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  font-family: Roboto;
+}
+.memes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
+.single-meme {
+  flex-shrink: 1;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-style: italic;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-input,
+.search-btn {
+  border-radius: 6px;
+  border: solid 1px grey;
+}
+.search-input {
+  padding: 3px 8px;
+  width: calc(30%-2em);
+  margin: 5px 8px;
+}
+.search-btn {
+  padding: 5px 5px;
+}
